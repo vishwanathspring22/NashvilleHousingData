@@ -14,6 +14,5 @@ The main steps taken care before data analysis are:
 
 There is an issue in 2023 SQL server i.e. importing the excel file directly using database -> tasks -> import/export wizard. An error pops up. Hence, OPENROW and BULK INSERT can also be used in this process.
 
-I prefer for this dataset, to import the dataset using tasks as a flatfile. Basically converting the .xlsx file to .csv file.
-Then there will no errors.
+Note: Issue will be encountered to import the dataset in .csv format or .xlsx format in SSMS. Instead import can be done using a flatfile. Basically converting the .xlsx file to .csv file. Error encounter can be avoided.
 
